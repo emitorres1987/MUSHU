@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap" rel="stylesheet">);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body { background-color: #2c3e50;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+}
+
+main {
+	width: 90%;
+	height: 650px;
+	margin: auto;
+	margin-top: 30px
+}
+
+header {
+width:100%;
+height: 130px;
+background-color:#2c3e50;
+}
+
+#logo {
+	float: left;
+margin-left: 30px;
+margin-top: 24px;
+}
+
+#botones {
+	padding: 0
+}
+
+#botones li {
+	display: inline;
+}
+
+
+#botones li a {
+	float: right;
+	font-size: 14px;
+	text-decoration: none;
+	color: #e74c3c;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #2c3e50;
+    letter-spacing: 2px;
+	margin-right: 60px;
+	position: relative;
+    padding: 1%;
+	top: 70px;
+	cursor: pointer;
+	transition: 1s ease; 
+}
+
+#botones li a:hover {
+	float: right;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #2c3e50;
+    letter-spacing: 2px;
+	margin-right: 60px;
+	position: relative;
+    padding: 1%;
+	top: 70px;
+	cursor: pointer;
+	transition: 1s ease; }
+
+section {
+width: 100%;
+height: 500px;
+}
+
+section#HOME {
+	background-image:url(../img/FONDO.PNG)
+}
+
+#texto{
+   width:350px;
+   height:150px;
+   float:right;
+}
+
+#texto{
+   width:350px;
+   height:150px;
+   float: right; 
+   margin-right: 30px;
+   position: relative;
+   top: 100px;
+}
+
+h1{
+     font-size: 28px;
+     color: #fff;
+     margin-bottom: 6px;
+     font-style: italic;
+     line-height: 1,5;
+}
+
+h6 {
+     font-size: 18px;
+     color: #fff;
+     margin-top: 6px;
+     line-height: 40px;
+     font-weight: 100;
+}
+
+.confe {
+	background: #fff;
+	width: 300px;
+	height: 150px;
+	margin-top: 20px;
+	overflow: hidden;
+     border-radius:6px;
+     box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.confe:hover {
+cursor: pointer;
+transform: translateY(8px);
+box-shadow: 0px 15px 25px rgba(0,0,0,0.3);
+}
+
+footer{
+	width: 100%;
+	height: 35px;
+}
+
+footer ul li{
+	list-style: none;
+    margin-left: auto;
+	margin-left: auto;
+    text-align: center;
+    padding: 13px;
+    font-size: 12px;
+    color: #e74c3c;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* GALERIA */
+
+#galeria {
+	width: 100%;
+    height: 500px;
+    padding: 50px;
+	background-color:  #2c3e50;
+
+}
+
+#galeria img {
+	position: relative;
+	float:left;
+}
+
+.foto1{
+       margin-right: 32px;
+}
+
+.foto2{
+       margin-right: 32px;
+       margin-left: 33px;
+}
+
+.foto3{
+       margin-right: 33px;
+       margin-left: 33px;
+}
+.foto4{
+       margin-left: 33px;
+}
+
+/* CONTACTO */
+
+#CONTACTO {
+	width: 100%;
+    height: 500px;
+    padding: 10px;
+	background-color: #2c3e50;
+}
+
+#seccion1 {
+    width: 33%;
+    height: 480px;
+    float: left;
+  }
+
+#TELEFONO {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#MAIL {
+    float: left;
+    margin-left: 30px;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+
+ #CANAL {
+    float: left;
+    margin-left: 30px;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+
+#FACEBOOK{
+    float: left;
+    margin-left: 30px;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+
+h2 {
+    margin-left: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1c40f;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}	
+
+h3 {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-left: 70px;
+	font-weight: 300;
+}
+
+#mail {
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+#seccion2 {
+	float: right;
+    width: 60%;
+    height: 468px;
+    padding: 15px;
+    background-color: #f1c40f;  
+    border-radius: 30px;
+}
+
+h4{
+	font-size: 18px;
+	margin-bottom: 30px;
+	color:#2c3e50;
+	margin-left: 10px;
+}
+
+#form input, textarea {
+    font-size: 12px;
+    color: #2c3e50;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#form label {
+	margin-left: 15px;
+	font-size: 16px;
+	color: #B22C4E;
+
+}
+
+/* EXPERIENCIAS */
+
+#heroes{
+	width: 100%;
+	height:500px;
+	padding: 15px;
+}
+
+.conmulan{
+	width: 30%;
+	height: 480PX;
+	float: left;
+	margin-left: 25px;
+}
+
+.consmith{
+	width: 30%;
+	height: 480PX;
+	float: left;
+	margin-left: 30PX;
+	margin-right: 30px;
+
+}
+
+.conhercules{
+	width: 30%;
+	height: 480PX;
+	float: left;
+}
+
+h5 {
+    margin-left: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1c40f;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+p {	font-size: 16px;
+	color: #fff;
+	margin-top: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 20px;
+	font-weight: 300;
+	text-align: left;
+}
+.color{
+	font-size: 12px;
+	font-weight: 100;
+	color: #f1c40f;
+}
